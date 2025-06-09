@@ -4,6 +4,9 @@ function ChatMenue() {
   return (
     <div className="talk-container">
       <div className="talk-header">
+        <div className="talk-logo">
+          <h3>SmallTalk</h3>
+        </div>
         <div className="header-menue">
           <span></span>
           <span></span>
