@@ -1,4 +1,6 @@
-import './talkMenue.scss';
+import "./talkMenue.scss";
+import menueButton from "../MenueButton/menueButton";
+import MenueButton from "../MenueButton/menueButton";
 
 function ChatMenue() {
   return (
@@ -8,9 +10,7 @@ function ChatMenue() {
           <h3>SmallTalk</h3>
         </div>
         <div className="header-menue">
-          <span></span>
-          <span></span>
-          <span></span>
+          <MenueButton></MenueButton>
         </div>
       </div>
 
